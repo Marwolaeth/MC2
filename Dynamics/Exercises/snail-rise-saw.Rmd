@@ -4,5 +4,5 @@ created: "Sun Mar 20 13:08:24 2022"
 global_id: "TrUJNE"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "TrUJNE", "Exercises/snail-rise-saw.Rmd")`
+
 

@@ -250,10 +250,10 @@ It is nice to have the labels show round numbers. It is also nice for them to be
 
 ## Exercises
 
-`r insert_exercises("Modeling", "magnitudes")`
+
 
 ## Mini-project
 
-`r insert_exercises("Modeling", "magnitudes-mini-project")`
+
 
 

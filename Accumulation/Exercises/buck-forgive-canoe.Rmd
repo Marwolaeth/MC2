@@ -4,7 +4,7 @@ created: "Wed May 25 12:35:29 2022"
 global_id: "AMqazT"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "AMqazT", "/Users/kaplan/MC2/Accumulation/Exercises/buck-forgive-canoe.Rmd")`
+
 
 The KC-46 is an airborne fuel tanker that can receive or dispense fuel. Suppose
 $x(t)$ tracks a KC-46's fuel transfer rate, in pounds per minute, where $t$ is measured in minutes from the start of the mission.  Note that $0 < x(t)$ when the KC-46 is receiving fuel from another tanker and $x(t)<0$ when the KC-46 is offloading fuel to a supported aircraft.

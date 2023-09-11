@@ -4,7 +4,7 @@ created: "Fri Apr 22 17:02:11 2022"
 global_id: "75ZZQ0"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "75ZZQ0", "Exercises/horse-hit-saucer.Rmd")`
+
 
 As detailed in @sec-doubling-time, the exponential function has a unique (and important!) property: "doubling in constant time." Let's call this "constant time" $\tau$. 
 

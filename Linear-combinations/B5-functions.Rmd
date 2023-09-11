@@ -408,4 +408,4 @@ The analogous procedure for stringed musical instruments such as the cello or vi
 
 ## Exercises
 
-`r insert_exercises("Linear-combinations", "functions")`
+

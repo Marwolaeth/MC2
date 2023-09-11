@@ -108,13 +108,13 @@ e. A standard way to measure acceleration of planes and rockets is in terms of â
 ## Review
 
 
-`r insert_calcZ_exercise("XX.XX", "yCkyoU", "Exercises/Accum/pony-freeze-room.Rmd")`
 
-`r insert_calcZ_exercise("XX.XX", "IYwZLx", "Exercises/Accum/dolphin-choose-sofa.Rmd")`
 
-`r insert_calcZ_exercise("XX.XX", "Zb22kJ", "Exercises/Accum/crow-bid-gloves.Rmd")`
 
-`r insert_calcZ_exercise("XX.XX", "IXk4ua", "Exercises/Accum/elm-blow-lamp.Rmd")`
+
+
+
+
 
 
 

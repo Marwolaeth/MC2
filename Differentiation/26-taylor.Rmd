@@ -310,7 +310,7 @@ Plotting software will often treat `NaN` values as "don't plot this." that is  w
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "taylor polynomials")`
+
 
 
 <!--

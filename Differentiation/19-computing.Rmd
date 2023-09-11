@@ -201,5 +201,5 @@ The acceleration does not depend on $t$; it is the constant $g$. No wonder $g$ i
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "computing")`
+
 

@@ -303,4 +303,4 @@ Notice that one can also lay a card along a *single* vector. What is different h
 
 ## Exercises
 
-`r insert_exercises("linear-combinations", "linear combinations")`
+

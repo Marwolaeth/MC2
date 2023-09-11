@@ -5,7 +5,7 @@ global_id: "iUQmZ1"
 skill: "Re-Mod-1201ai" 
 ---
 
-`r insert_calcZ_exercise("XX.XX", "iUQmZ1", "/Users/kaplan/MC2/Differentiation/Exercises/rhinosaurus-send-car.Rmd")`
+
 
 
 Your roommate has challenged you to a chocolate chip cookie bakeoff.  Your grandmother has sent you the ingredients for her county-fair award winning recipe, but the baking instructions are missing.  You decide to construct a model to help you find the optimal combination of how hot to set the oven $(H)$ and baking time $(T)$.  You initially come up with the following model for the yumminess $(Y)$ of the cookies as a function of $T$ and $H$:

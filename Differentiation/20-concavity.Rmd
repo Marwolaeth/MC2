@@ -164,4 +164,4 @@ Changing curvature implies that $\partial_x {\cal K}$ is non-zero. Since ${\cal 
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "concavity")`
+

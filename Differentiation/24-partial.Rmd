@@ -387,5 +387,5 @@ We will return to "a little bit of this" when we explore how to add up little bi
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "partial")`
+
 

@@ -4,7 +4,7 @@ created: "Sun Feb  6 11:16:48 2022"
 global_id: "EFgeD4"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "EFgeD4", "Exercises/cheetah-go-jacket.Rmd")`
+
 
 ::: {.underconstruction}
 :::

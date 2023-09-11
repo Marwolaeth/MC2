@@ -153,6 +153,6 @@ Functions relate input quantities to a corresponding output quantity. A way to t
 
 ## Exercises
 
-`r insert_exercises("Preliminaries", "quant-function-space")`
+
 
 

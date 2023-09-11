@@ -398,7 +398,7 @@ Like $e^x$, the derivatives of $10^x$ and $2^x$ are proportional to themselves. 
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "rules")`
+
 
 
 <!-- `rrr insert_calcZ_exercise("XX.XX", "YbPAf1", "Exercises/sheep-draw-clock.Rmd")`-->

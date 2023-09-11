@@ -237,4 +237,4 @@ Low-order polynomials to the rescue! The simplest model is that the rate of cool
 
 ## Exercises
 
-`r insert_exercises("Modeling", "low-order-polynomials")`
+

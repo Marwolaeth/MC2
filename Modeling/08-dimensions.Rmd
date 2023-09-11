@@ -321,7 +321,7 @@ The deviation of one-tenth of a degree reflects rounding off the time of the equ
 
 ## Exercises
 
-`r insert_exercises("Modeling", "dimensions")`
+
 
 
 

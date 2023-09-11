@@ -283,7 +283,7 @@ Another example: Imagine a function pressure() with that takes altitude above se
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "rate of change")`
+
 
 
 

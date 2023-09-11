@@ -371,4 +371,4 @@ Another feasible approach integrates $\dnorm()$ numerically using an advanced al
 
 ## Exercises
 
-`r insert_exercises("Accumulation", "symbolic")`
+

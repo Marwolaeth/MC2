@@ -4,7 +4,7 @@ created: "Thu Dec 16 17:35:38 2021"
 global_id: "avgZnb"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "avgZnb", "elm-ride-knob.Rmd")`
+
 
 In @fig-uniform-density, give quantitatively plausible estimates for the parameters $a$ and $b$. You may not be able to say everything about $a$ and $b$, but you should be able to say something and do so precisely and accurately.
 

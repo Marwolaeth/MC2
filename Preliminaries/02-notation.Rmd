@@ -157,7 +157,7 @@ As we've stated before, the names of inputs will tend to be letters from the bac
 
 ## Exercises
 
-`r insert_exercises("Preliminaries", "notation")`
+
 
 `r Znotes:::MC_counter$reset(labels="numbers")`
 

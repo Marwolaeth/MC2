@@ -190,5 +190,5 @@ Any function that has an extremum cannot possibly be monotonic, since the growth
 
 ## Exercises
 
-`r insert_exercises("Preliminaries", "describing functions")`
+
 

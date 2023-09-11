@@ -306,5 +306,5 @@ To see the benefits of the `NaN` / `Inf` system let's plot out the logarithm fun
 
 ## Exercises
 
-`r insert_exercises("Modeling", "assembling functions")`
+
 

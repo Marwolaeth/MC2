@@ -179,7 +179,7 @@ The above is an equation, not a definition. It says that whatever $x^\star$ happ
 
 
 <!--
-`r insert_calcZ_exercise("23.16", "eberg", "Exercises/optim-blue.Rmd")`
+
 Save for after approximations have been introduced. --> 
 
 <!--
@@ -315,5 +315,5 @@ Again, $V$ is specified as 1000 liters. As detailed in Exercise `r ref_ex("ph92l
 
 ## Exercises
 
-`r insert_exercises("Differentiation", "optimization")`
+
 

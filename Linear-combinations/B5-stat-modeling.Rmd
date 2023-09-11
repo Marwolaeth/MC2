@@ -144,4 +144,4 @@ In a statistics course using R, you are very likely to encounter `lm()`. You wil
 
 ## Exercises
 
-`r insert_exercises("Linear-combinations", "statistical modeling")`
+

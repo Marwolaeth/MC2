@@ -527,7 +527,7 @@ Do take note that the position of each particle in the pipe at time $t$ is shown
 Each of the trajectories is called a **random walk**, as if a walker were randomly taking steps forward or backward.
 
 
-`r insert_calcZ_exercise("XX.XX", "KktWcD", "Exercises/Dynamics/fox-write-oven.Rmd")`
+
 
 ## Investment volatility
 

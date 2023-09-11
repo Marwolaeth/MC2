@@ -4,7 +4,7 @@ created: "Mon Jun  6 09:44:18 2022"
 global_id: "dquIPy"
 ---
 
-`r insert_calcZ_exercise("XX.XX", )`
+
 
 ```{r echo=FALSE}
 #| label: fig-solar-june-c3

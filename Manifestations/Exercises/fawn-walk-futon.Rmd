@@ -4,7 +4,7 @@ created: "Mon Jan 10 07:10:39 2022"
 global_id: "T4Yf9r"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "T4Yf9r", "Exercises/fawn-walk-futon.Rmd")`
+
 
 
 The careful reader will have noticed that in @sec-discount-functions we asserted that the proper form of the discounting function ${\cal D}(t)$ is $e^{kt}$ but in the building project example we used a different form, $(1+r)^{-t}$. These are, of course, both exponential functions---the input $t$ is in the exponent in both cases. For them to be the same requires $k = -\ln(1+r)$.  only the appropriate choice of $k$.

@@ -4,7 +4,7 @@ created: "Mon Sep 13 13:25:16 2021"
 global_id: "RFAv2v"
 ---
 
-`r insert_calcZ_exercise("XX.XX", "RFAv2v", "cat-wake-oven.Rmd")`
+
 
 Calculating $\int_0^t \dnorm(x)\,dx$.
 

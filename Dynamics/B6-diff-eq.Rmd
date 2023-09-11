@@ -355,7 +355,7 @@ Calculus provides both the notation for describing the physics of climate and th
 
 ## Exercises
 
-`r insert_exercises("Dynamics", "diffeq")`
+
 
 <!--
 

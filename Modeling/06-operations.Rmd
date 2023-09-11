@@ -310,7 +310,7 @@ As guesses, the two quantities $y$ and $x/y$ are equivalent in the sense that $\
 
 ## Exercises
 
-`r insert_exercises("Modeling", "operations")`
+
 
 <!--
 EXERCISE ON FINDING HOW LONG UNTIL radioactivity level decays to 1/100 of its current level. Write the function as 2^t^ and have them use log2() to calculate the result.

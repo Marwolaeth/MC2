@@ -287,6 +287,6 @@ In addition to software being more compact and easier to use than printed tables
 
 ## Exercises
 
-`r insert_exercises("Preliminaries", "data graphics")`
+
 
 

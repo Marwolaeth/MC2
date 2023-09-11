@@ -195,5 +195,5 @@ Each of these examples has been written using numbers as inputs to the mathemati
 
 ## Exercises
 
-`r insert_exercises("Preliminaries", "computing")`
+
 

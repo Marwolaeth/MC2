@@ -199,7 +199,7 @@ The scalar coefficients $m_1$ and $m_2$ can be found from the initial condition.
 
 ## Exercises
 
-`r insert_exercises("Dynamics", "eigenvalues and eigenvectors")`
+
 
 <!--
 - WP-103-16: Using eigenvalues, eigenvectors, and vector decomposition, develop closed form solutions to initial value problems involving systems of linear equations.
