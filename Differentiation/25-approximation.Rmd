@@ -263,11 +263,7 @@ Four$P1
 ```{r echo=FALSE}
 #| label: fig-saddle2
 #| fig-cap: "A saddle" 
-if (knitr::is_html_output()) {
-  Four$P2
-} else {
-  knitr::include_graphics("www/show_poly2_104.png")
-}
+knitr::include_graphics("www/show_poly2_104.png")
 ```
 
 
@@ -368,11 +364,7 @@ Low-order polynomials are often used for constructing functions from data. In th
 
 The data I'll use for the demonstration is a set of physical measurements of height, weight, abdominal circumference, etc. on 252 human subjects. These are contained in the `Body_fat` data frame, shown below. 
 ```{r echo=FALSE}
-if (knitr::is_html_output()) {
-  Body_fat %>% DT::datatable()
-} else {
-  knitr::kable(Body_fat %>% head(10))
-}
+knitr::kable(Body_fat %>% head(10))
 ```
 
 One of the variables records the body-fat percentage, that is, the fraction of the body's mass that is fat. This is thought to be an indicator of fitness and health, but it is extremely hard to measure and involves weighing the person when they are fully submerged in water. This difficulty motivates the development of a method to approximation body-fat percentage from other, easier to make measurements such as height, weight, and so on.

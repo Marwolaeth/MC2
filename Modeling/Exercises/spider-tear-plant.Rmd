@@ -18,31 +18,7 @@ The initial creator of R, Ross Ihaka, teaches at the University of Auckland. His
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #| label: fig-Maungawhau-plot
 #| fig-cap: "A combination surface and contour plot of the topography of Maungawhau."
-if (knitr::is_latex_output()) {
-  knitr::include_graphics(("www/volcano-multi-view.png"))
-} else {
-library(plotly)
-# volcano is a numeric matrix that ships with R
-fig <- plot_ly(z = ~volcano) %>% add_surface(
-  contours = list(
-    z = list(
-      show=TRUE,
-      usecolormap=TRUE,
-      highlightcolor="#ff0000",
-      project=list(z=TRUE)
-      )
-    )
-  )
-fig <- fig %>% layout(
-    scene = list(
-      camera=list(
-        eye = list(x=1.87, y=0.88, z=-0.64)
-        )
-      )
-  )
-
-fig
-}
+knitr::include_graphics(("www/volcano-multi-view.png"))
 ```
 
 The z-axis is height and is in meters. The x- and y-axes are latitude and longitude, measured in 10-meter units from a reference point. (So, $x=10$ is 100 meters from $x=20$.)

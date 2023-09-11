@@ -1,6 +1,5 @@
 project:
   type: book
-  output-dir: docs
 
 book:
   title: "MOSAIC Calculus"
@@ -97,6 +96,15 @@ comments:
 bibliography: references.bib
 
 format:
+  epub:
+    cover-image: www/Cover-1.png
+    epub-cover-image: www/Cover-1.png
+    toc: true
+    css: mosaic-calc-style.css
+    fig-format: png
+    html-math-method: mathjax
+    include-in-header: 
+      - mathjax-definitions.html
   html:
     theme: cosmo
     css: mosaic-calc-style.css
@@ -104,6 +112,7 @@ format:
       - mathjax-definitions.html
   pdf:
     documentclass: scrreprt
+    fig-format: png
     include-in-header: 
       - latex-definitions.tex
     always_allow_html: true

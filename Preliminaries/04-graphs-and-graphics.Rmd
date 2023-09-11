@@ -197,11 +197,7 @@ the space of all possibilities (y, z, output) is three-dimensional, but very few
 #| label: fig-first-surface
 #| fig-cap: "Displaying $g(y,z) \\equiv e^{-z}\\sin(y)$ as a surface plot annotated with contour lines."
 #| fig-cap-location: margin
-if (!knitr::is_html_output()) {
-  knitr::include_graphics("www/surface-plot1.png")
-} else {
-  surface_plot(exp(-z)*sin(y) ~ y & z, bounds(y=-6:6, z=0:2))
-}
+knitr::include_graphics("www/surface-plot1.png")
 ```
 
 Note that the surface plot is made with the R/mosaic `surface_plot()`, which takes arguments in the same way as `contour_plot()`.

@@ -37,6 +37,24 @@ The task for our example robot will be to visit the points shown in @fig-robot-p
 #| label: fig-robot-points
 #| fig-cap: "The waypoints on a path the robot hand is supposed to follow. All the action is taking place in roughly 1x1 meter area."
 #| fig-cap-location: margin
+gf_text <-
+  layer_factory(
+    geom = "text",
+    position = "nudge",
+    pre = {
+      if ((nudge_x[1] != 0) || (nudge_y[1] != 0)) {
+        position <- position_nudge(nudge_x, nudge_y)
+      }
+    },
+    extras = alist(
+      label = , alpha = , angle = , color = ,
+      family = , fontface = , group = , hjust = ,
+      lineheight = , size = , vjust = , parse = FALSE,
+      nudge_x = 0, nudge_y = 0,
+      check_overlap = FALSE
+    )
+  )
+
 nudges <- rep(40, 16)
 nudges[c(3,12)] <- -40
 gf_path(y ~ x, data = Robot_stations, size = 2) %>%

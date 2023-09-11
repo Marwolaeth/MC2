@@ -154,11 +154,7 @@ Let's develop our understanding of this unknown constant $C$, which is called th
 #| label: fig-accum-movie-1 
 #| fig-cap: "Constructing the anti-derivative $F(t)$ by reading the slope from $f(t)$ and using that slope to extend the picture of $F()$"
 #| fig-cap-location: margin
-if (knitr::is_html_output()) {
-  knitr::include_graphics("www/arrow-plot.gif")
-} else {
-  knitr::include_graphics("www/arrow-plot-still.png")
-}
+knitr::include_graphics("www/arrow-plot-still.png")
 ```
 
 1. Focus first on the top graph. The function we are integrating, $f(t)$, is known before we carry out the integration, so it is shown in the top graph. 

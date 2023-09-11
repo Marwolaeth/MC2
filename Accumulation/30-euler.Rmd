@@ -303,11 +303,7 @@ PROVIDE LINK TO MOVIE IN PDF version.
 ```{r echo=FALSE}
 #| label: fig-dynamic-anti-d
 #| fig-cap: "A dynamic view of building $F(t)$ from $f(t)$ by accumulating Euler steps."
-if (knitr::is_html_output()) {   
-  knitr::include_graphics("www/area-plot.gif")
-} else {
-  knitr::include_graphics("www/area-plot-still.png")
-}
+knitr::include_graphics("www/area-plot-still.png")
 ```
 
 ::: {.callout-note icon=false data-latex=""}

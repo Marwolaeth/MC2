@@ -12,11 +12,7 @@ USPop <- readr::read_csv("www/census-totals.csv")
 Tmp <- USPop %>% 
   mutate(population=prettyNum(population, big.mark=",")) %>%
   select(-growth_rate)
-Table <- if (knitr::is_html_output()) {
-  DT::datatable(Tmp) 
-} else {
-  knitr::kable(Tmp)
-}
+Table <- knitr::kable(Tmp)
 USPop <- USPop %>% 
   mutate(population = population/1e6)
 ```

@@ -177,11 +177,7 @@ On the size scale that we normally perceive, it can appear that nothing is movin
 #| fig-cap: "Animation of the generation of force by the interaction of actin and myosin, from *The Nervous System in Action*." 
 #| out-width: "50%"
 #| fig-align: "center" 
-if (knitr::is_html_output()){
-knitr::include_graphics("www/actin_myosin_anim.gif")
-} else {
-  knitr::include_graphics("www/actin_myocin_anim.png")
-}
+knitr::include_graphics("www/actin_myocin_anim.png")
 ```
 When muscle is under tension, the actin can slip back in between strokes of the myosin head. Thus, a constant-length muscle in tension on a macroscopic scale is steadily consuming energy, in much the same way as an oarsman on an anchored boat can do work via the movement of oars against the water even when the boat itself is not moving.
 :::

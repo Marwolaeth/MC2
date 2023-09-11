@@ -227,11 +227,7 @@ The `argM()` function reports the final result, the end of the path followed in 
 ```{r echo=FALSE}
 #| label: fig-SM3-path
 #| fig-cap: "The path to equilibrium for the 3-body spring-mass system shown in @fig-spring-mass-3. The top two frames show a 2-dimensional slice through the 6-dimensional gradient field. The bottom frame translates the current point on the path into a picture of the spring-mass locations."
-if (knitr::is_html_output()) {
-  knitr::include_graphics("www/SM_3.gif")
-} else {
-  knitr::include_graphics("www/SM_3.png")
-}
+knitr::include_graphics("www/SM_3.png")
 ```
 
 At the start of the movie, the masses are (absurdly) misplaced and far from their equilibrium position. As system configuration moves downhill toward the argmin of the potential energy function, the masses sort themselves out.

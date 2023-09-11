@@ -264,11 +264,7 @@ A stand-alone, interactive version of this diagram is available at <../www/space
 ```{r echo=FALSE, out.width=ifelse(knitr::is_html_output(), "1%", "50%")}
 #| label: fig-two-vecs
 #| fig-cap: "Two vectors $\\color{blue}{\\vec{u}}$ and $\\color{magenta}{\\vec{v}}$ embedded in 3-dimensional space. The subspace spanned by an individual vector is shown as a line."
-if (knitr::is_html_output()) {
-  knitr::include_graphics("www/tiny-blank.png")
-} else {
-  knitr::include_graphics("www/fig-two-vecs.png")
-}
+knitr::include_graphics("www/fig-two-vecs.png")
 ```
 
 
@@ -285,11 +281,7 @@ A stand-alone, interactive version of this diagram is available at <../www/space
 ```{r echo=FALSE, out.width=ifelse(knitr::is_html_output(), "1%", "50%")}
 #| label: fig-two-vecs-planes
 #| fig-cap: "Two vectors $\\vec{u}$ and $\\vec{w}$. The subspace spanned by two vectors is a plane, shown here as a gray surface." 
-if (knitr::is_html_output()) {
-  knitr::include_graphics("www/tiny-blank.png")
-} else {
-  knitr::include_graphics("www/fig-two-vecs-planes.png")
-}
+knitr::include_graphics("www/fig-two-vecs-planes.png")
 ```
 
 

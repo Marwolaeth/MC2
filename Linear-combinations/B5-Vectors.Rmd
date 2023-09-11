@@ -69,10 +69,6 @@ Vectors often represent a change in position, that is, a ***step*** or ***displa
 
 Vectors are a practical tool to keep track of relative motion. For instance, consider the problem of finding an aircraft heading and speed to intercept another plane that is also moving. The US Navy training movie from the 1950s shows how to perform such calculations with paper and pencil.
 
-::: {.column-margin}
-`r if (knitr::is_html_output()) '<iframe width="300" height="169" src="https://www.youtube.com/embed/j197C0XuNUA?start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'`
-:::
-
 
 ```{r echo=FALSE, eval=knitr::is_latex_output()}
 #| fig-cap: "A 1958 US Navy training film on calculations with relative motion. Available at <https://youtu.be/j197C0XuNUA> "

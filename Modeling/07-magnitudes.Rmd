@@ -173,11 +173,7 @@ Famously, Boyle's Law states that, at a constant temperature, the pressure of a 
 #| label: fig-boyle-movie
 #| fig-cap: "A cartoon illustrating Boyle's Law. Source: [NASA Glenn Research Center](https://www.grc.nasa.gov/WWW/K-12/airplane/aboyle.html)"
 #| fig-cap-location: margin
-if (knitr::is_html_output()) {
-    knitr::include_graphics("www/Boyles_Law_animated.gif")
-} else {
-  knitr::include_graphics("www/Boyle-snapshot.png")
-}
+knitr::include_graphics("www/Boyle-snapshot.png")
 ```
 
 @fig-boyle-data plots out Boyle's actual experimental data. I

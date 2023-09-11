@@ -166,11 +166,7 @@ Consider the motion of a weight attached to a spring, as in @fig-spring-mass. We
 #| label: fig-spring-mass1
 #| fig.cap = "A spring-mass system in motion. [Source: Svjo](https://commons.wikimedia.org/wiki/File:Animated-mass-spring.gif) [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0) via Wikimedia Commons"
 #| column: margin
-if (knitr::is_html_output()) {
-  knitr::include_graphics("www/Animated-mass-spring.gif")
-} else {
-  knitr::include_graphics("www/Animated-mass-spring.png")
-}
+knitr::include_graphics("www/Animated-mass-spring.png")
 ```
 
 According to Hooke's Law, a stretched or compressed spring exerts a force that is proportional to the amount of extension or compression. With our measuring $y$ relative to the fixed point, the Hooke's Law force will be

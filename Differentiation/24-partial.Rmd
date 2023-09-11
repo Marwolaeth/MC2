@@ -181,12 +181,7 @@ interactive_plot(plane(x, y) ~ x + y,
 ```
 
 ```{r echo=FALSE}
-if (knitr::is_html_output()){
-  interactive_plot(plane(x, y) ~ x + y, 
-                   bounds(x=c(-2, 2), y=c(-2, 2)))
-  } else {
-  knitr::include_graphics("www/plane-3d.png")
-}
+knitr::include_graphics("www/plane-3d.png")
 ```
 
 As always it can be difficult to extract quantitative information from a surface plot. For the example here, you can see that the high-point on the surface is when $x$ is most negative and $y$ is most positive. Compare that to the contour plot to verify that two modes are displaying the same surface. 
@@ -277,7 +272,8 @@ g <- makeFun(graw(x, y)  ~ x & y)
 contour_plot(g(x, y+.2) ~ x + y, bounds(x=c(-2,2), y=c(0, 4))) %>%
   gf_text(2 ~ 1, label= ~"(x=1,y=2)", color="orange3", hjust=0, vjust=-0.50) %>%
   gradient_plot(g(x, y) ~ x + y, bounds(x=c(1,2), y=c(2, 3)), npts=1, color="orange3", alpha=1) %>%
-  gf_refine(coord_fixed())
+  gf_refine(coord_fixed()) +
+  ggplot2::theme_linedraw()
 ```
 
 A ***gradient field*** (see @fig-gradient-field-A) is the value of the gradient vector at each point in the function's domain. Graphically, to prevent over-crowding, the vectors are drawn at discrete points. The lengths of the drawn vectors are set proportional to the numerical length of $\nabla g(x, y)$, so a short vector means the surface is relatively level, a long vector means the surface is relatively steep.  
@@ -289,7 +285,8 @@ A ***gradient field*** (see @fig-gradient-field-A) is the value of the gradient 
 contour_plot(g(x, y+.2) ~ x + y, bounds(x=-2:2, y=0:4)) %>%
   gradient_plot(g(x, y) ~ x + y, bounds(x=-2:2, y=0:4),
               color="orange3", alpha=1) %>%
-  gf_refine(coord_fixed())
+  gf_refine(coord_fixed()) +
+  ggplot2::theme_linedraw()
 ```
 
 
