@@ -41,6 +41,7 @@ With dot notation the equation looks like
 $$\dot{x} = x (1-x)\ ,$$ about as simple as it gets. 
 
 Dot notation is even more expressive in second-order differential equations, that is, differential equations involving second derivatives. For the second derivative of the function $x$, write $\ddot{x}$, which means the sam as $\partial_{tt} x$ is written $\ddot{x}$.
+:::
 
 ## The flow field
 
@@ -346,7 +347,6 @@ slice_plot(Symb_soln(t, A=0.25) ~ t, domain(t = 0:10),
 
 
 The difference between the Euler and the symbolic solution to $\partial_t x = x (1-x)$ as a fraction of the symbolic solution. At the worst, the Euler solution is off by 1.5 parts in one-million.
-:::
 
 <!--
 - O-TEOG4: Recognize a first-order differential equation.
